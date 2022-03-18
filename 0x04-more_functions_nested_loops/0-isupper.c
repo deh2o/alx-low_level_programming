@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdlib.h"
 #include <stdio.h>
 
 /**
@@ -6,9 +6,13 @@
 * @c: Variable text
 * Return: Always 0.
 */
-int _isupper(int c)
+int main()
 {
-	if (c >= 'A' && c <= 'Z')
+	char c;
+
+    	c = 'A';
+	
+	if (c == 'A')
 	{
 	return (1);
 	}
@@ -17,3 +21,4 @@ int _isupper(int c)
 	return (0);
 	}
 }
+/*_isupper(int c)*/
