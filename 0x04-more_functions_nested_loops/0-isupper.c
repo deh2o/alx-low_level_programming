@@ -1,4 +1,3 @@
-#include "stdlib.h"
 #include <stdio.h>
 
 /**
@@ -8,14 +7,13 @@
 */
 int _isupper(int c)
 {
-    	c = 'A';
-	
-	if (c == 'A')
-	{
-	return (1);
-	}
-	else
-	{
-	return (0);
-	}
+    	 if (c >= 'A' && c <= 'Z')
+        {
+        return (1);
+        }
+        else
+        {
+        return (0);
+        }
+
 }
