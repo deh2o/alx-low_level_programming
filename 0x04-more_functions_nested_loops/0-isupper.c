@@ -6,10 +6,8 @@
 * @c: Variable text
 * Return: Always 0.
 */
-int main()
+int _isupper(int c)
 {
-	char c;
-
     	c = 'A';
 	
 	if (c == 'A')
@@ -21,4 +19,3 @@ int main()
 	return (0);
 	}
 }
-/*_isupper(int c)*/
